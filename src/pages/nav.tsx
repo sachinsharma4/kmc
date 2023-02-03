@@ -11,7 +11,7 @@ function Nav() {
     <div ref={side}  className="hidden h-screen fixed w-36 p-3 bg-purple-300">
     <AiOutlineClose className='absolute right-3  ' onClick={hi} />
       <ul className='my-4 text-lg ' >
-   <li><Link href="./">home</Link></li>
+   <li><Link href="./index">home</Link></li>
    <li><Link href="./about">About</Link></li>
    {/*<li><Link href="./Blogs">Blogs</Link></li>*/}
    <li><Link href="./contact_us">Contact</Link></li>
